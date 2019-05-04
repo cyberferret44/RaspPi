@@ -9,3 +9,4 @@ for x in range(0, 100) :
     time.sleep(1)
     print("LED off")
     GPIO.output(18,GPIO.LOW)
+    time.sleep(1)
