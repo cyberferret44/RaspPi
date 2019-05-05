@@ -11,9 +11,9 @@ for x in range(0, 100):
     GPIO.output(23,GPIO.HIGH)
     time.sleep(1)
     GPIO.output(23,GPIO.LOW)
-    GPIO.output(25,GPIO.HIGH)
+    GPIO.output(24,GPIO.HIGH)
     time.sleep(1)
-    GPIO.output(25,GPIO.LOW)
+    GPIO.output(24,GPIO.LOW)
     time.sleep(1)
 
     # all on
@@ -21,9 +21,9 @@ for x in range(0, 100):
     time.sleep(1)
     GPIO.output(23,GPIO.HIGH)
     time.sleep(1)
-    GPIO.output(25,GPIO.HIGH)
+    GPIO.output(24,GPIO.HIGH)
     time.sleep(1)
     GPIO.output(18,GPIO.LOW)
     GPIO.output(23,GPIO.LOW)
-    GPIO.output(25,GPIO.LOW)
+    GPIO.output(24,GPIO.LOW)
     time.sleep(1)
